@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f40c6d4e-3d84-4f0f-a20f-b4d3e66765b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f40c6d4e-3d84-4f0f-a20f-b4d3e66765b7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +14,7 @@
     <session id="929104063">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
@@ -157,7 +155,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585216145884" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585216469005" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -193,7 +191,7 @@
       <workItem from="1585034737370" duration="1409000" />
       <workItem from="1585039219366" duration="168000" />
       <workItem from="1585215238535" duration="644000" />
-      <workItem from="1585215895161" duration="251000" />
+      <workItem from="1585215895161" duration="664000" />
     </task>
     <task id="LOCAL-00001" summary="新建Project,提交到本地仓库">
       <created>1585033414117</created>
@@ -227,7 +225,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3247000" />
+    <option name="totallyTimeSpent" value="3660000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
