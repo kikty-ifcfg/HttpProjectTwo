@@ -13,7 +13,7 @@
     <session id="768094690">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.opened" value="2" />
         </counts>
@@ -155,7 +155,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585231451025" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585231575259" />
     <property name="last_opened_file_path" value="J:/MaYunClone/HttpProject/zookeeper_api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -285,7 +285,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585221899915</updated>
       <workItem from="1585221901187" duration="1613000" />
-      <workItem from="1585223595162" duration="7614000" />
+      <workItem from="1585223595162" duration="7714000" />
     </task>
     <task id="LOCAL-00001" summary="ZookeeperApi">
       <created>1585231394747</created>
@@ -330,7 +330,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9227000" />
+    <option name="totallyTimeSpent" value="9327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="546" y="0" width="1381" height="1047" extended-state="0" />
