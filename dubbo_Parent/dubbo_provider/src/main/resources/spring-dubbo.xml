@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://dubbo.apache.org/schema/dubbo
+        http://dubbo.apache.org/schema/dubbo/dubbo.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--注意:如果有多个服务提供者,应用名称不能相同,,通信端口也不能相同-->
+
+        <!--dubbo应用的名称-->
+    <dubbo:application name="dubbo-provider"></dubbo:application>
+    <!--服务注册中新的地址-->
+    <dubbo:registry address="zookeeper://127.0.0.1:2181"></dubbo:registry>
+    <!--不配置也可,默认发布dubbo协议, 默认端口是2088-->
+    <!--<dubbo:protocol name="dubbo" port="20881"></dubbo:protocol>-->
+    <dubbo:protocol name="rmi" port="1099"></dubbo:protocol>
+
+
+    <!--指定暴露的服务接口及实例   如果service下有其它类,这样每增加一个实现类就要添加协议配置-->
+    <!--<dubbo:service interface="com.itheima.service.UserService" ref="UserService"></dubbo:service>-->
+
+   <!--配置业务类实列-->
+    <!--<bean id="UserService" class="com.itheima.service.impl.UserServiceImpl"></bean>-->
+    <!--使用注解配置-->
+    <dubbo:annotation package="com.itheima.service"/>
+
+    <!--超时时间为10秒钟-->
+    <dubbo:provider timeout="10000"></dubbo:provider>
+
+</beans>
