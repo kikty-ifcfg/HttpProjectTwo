@@ -26,7 +26,7 @@
         <!--配置数据源-->
         <property name="dataSource" ref="dataSource"></property>
         <!--配置别名映射-->
-        <property name="typeAliasesPackage" value="com.itheima.pojo"></property>
+        <property name="typeAliasesPackage" value="com.com.itheima.pojo"></property>
 
         <!--配置分页插件pagehelper-->
 
@@ -34,6 +34,6 @@
 
     <!--配置mapper文件扫描,扫描dao接口-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.itheima.dao"></property>
+        <property name="basePackage" value="com.com.itheima.dao"></property>
     </bean>
 </beans>

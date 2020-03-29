@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class UserController {
 
 //    @Autowired
-    @Reference
+    @Reference()
     private UserService userService;
 
     @RequestMapping(value = "/findById")
@@ -27,7 +27,7 @@ public class UserController {
             return byId;
     }
 
-    @Reference
+    @Reference()
     private HelloService helloService;
 
     @RequestMapping(value = "/hello")

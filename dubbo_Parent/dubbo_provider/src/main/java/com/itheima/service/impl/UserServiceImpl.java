@@ -19,6 +19,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User findById(Integer id) {
+        System.out.println("provider1");
         return userDao.findById(id);
     }
 }

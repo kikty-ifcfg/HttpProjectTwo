@@ -15,17 +15,17 @@
     <!--服务注册中新的地址-->
     <dubbo:registry address="zookeeper://127.0.0.1:2181"></dubbo:registry>
     <!--不配置也可,默认发布dubbo协议, 默认端口是2088-->
-    <!--<dubbo:protocol name="dubbo" port="20881"></dubbo:protocol>-->
-    <dubbo:protocol name="rmi" port="1099"></dubbo:protocol>
+    <dubbo:protocol name="dubbo" port="20884"></dubbo:protocol>
+    <dubbo:protocol name="rmi" port="20883"></dubbo:protocol>
 
 
     <!--指定暴露的服务接口及实例   如果service下有其它类,这样每增加一个实现类就要添加协议配置-->
-    <!--<dubbo:service interface="com.itheima.service.UserService" ref="UserService"></dubbo:service>-->
+    <!--<dubbo:service interface="com.com.itheima.service.UserService" ref="UserService"></dubbo:service>-->
 
    <!--配置业务类实列-->
-    <!--<bean id="UserService" class="com.itheima.service.impl.UserServiceImpl"></bean>-->
+    <!--<bean id="UserService" class="com.com.itheima.service.impl.UserServiceImpl"></bean>-->
     <!--使用注解配置-->
-    <dubbo:annotation package="com.itheima.service"/>
+    <dubbo:annotation package="com.com.itheima.service"/>
 
     <!--超时时间为10秒钟-->
     <dubbo:provider timeout="10000"></dubbo:provider>

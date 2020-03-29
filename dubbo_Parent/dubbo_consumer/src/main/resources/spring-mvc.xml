@@ -15,7 +15,7 @@
         http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
     <!--开启注解扫描-->
-    <context:component-scan base-package="com.itheima"></context:component-scan>
+    <context:component-scan base-package="com.com.itheima"></context:component-scan>
 
 
     <!--开启springMVC对注解的支持-->
@@ -39,7 +39,7 @@
             <mvc:exclude-mapping path="/user/save"></mvc:exclude-mapping>
 
                &lt;!&ndash;2：指定处理请求的拦截器&ndash;&gt;
-            <bean class="com.itheima.interceptor.LoginInterceptor" />
+            <bean class="com.com.itheima.interceptor.LoginInterceptor" />
         </mvc:interceptor>
     </mvc:interceptors>-->
 
